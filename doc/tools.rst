@@ -85,6 +85,13 @@ MotorEngine
   It implements the same modeling APIs to be data-portable, meaning that a
   model defined in MongoEngine can be read in MotorEngine. The source is
   `available on github <http://github.com/heynemann/motorengine>`_.
+  
+Pymorm
+  `pymorm <http://pypi.python.org/pypi/pymorm>`_ is a micro ODM
+  library for MongoDB. It simply wraps PyMongo exposing all the
+  original APIs, providing also a more pythonic interface with modeling,
+  dotted notation, and automatic indexing. The `source is on github
+  <https://github.com/devilicecream/pymorm>`_.
 
 Framework Tools
 ---------------
